@@ -1,0 +1,15 @@
+.todo-search{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .todo-search{
+        flex-wrap: wrap;
+        row-gap: 15px;
+        margin-bottom: 25px;
+    }
+}
